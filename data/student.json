@@ -1,0 +1,28 @@
+{
+   "students": [
+      {
+         "sno": 1,
+         "username": "Karishma",
+         "age": "17",
+         "address": "Thoothukudi",
+         "course": "python",
+         "duration": "2 months"
+      },
+      {
+         "sno": 2,
+         "username": "Apishaa",
+         "age": "18",
+         "address": "Chennai",
+         "course": "web development",
+         "duration": "3 months"
+      },
+      {
+         "sno": 3,
+         "username": "Abarna",
+         "age": "17",
+         "address": "Coimbatore",
+         "course": "tally",
+         "duration": "1 month"
+      }
+   ]
+}
