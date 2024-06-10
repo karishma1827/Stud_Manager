@@ -23,6 +23,14 @@
          "address": "Coimbatore",
          "course": "tally",
          "duration": "1 month"
+      },
+      {
+         "sno": 4,
+         "username": "Cinzi",
+         "age": "18",
+         "address": "Tirunelveli",
+         "course": "web development",
+         "duration": "2 months"
       }
    ]
 }
