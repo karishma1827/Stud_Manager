@@ -11,17 +11,25 @@
       {
          "sno": 2,
          "username": "Apishaa",
-         "age": "17",
+         "age": "19",
          "address": "Chennai",
          "course": "web development",
          "duration": "2 months"
       },
       {
          "sno": 3,
-         "username": "Abarna",
+         "username": "Anupa",
+         "age": "18",
+         "address": "Kerela",
+         "course": "web development",
+         "duration": "2 months"
+      },
+      {
+         "sno": 4,
+         "username": "Cinzi",
          "age": "17",
-         "address": "Tuticorin",
-         "course": "python",
+         "address": "Kovilpatti",
+         "course": "Java",
          "duration": "3 months"
       }
    ]

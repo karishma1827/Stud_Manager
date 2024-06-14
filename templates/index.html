@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/static/icon.jfif">
     
 </head>
 <body class="bg">
@@ -97,11 +98,11 @@
                                 </div>
                                 <div class="modal-body">
                                   <form action="/update/{{st.sno}}"  method="post">
-                                  <input type="text" value="{{st.username}}"  name="username" my="3">
-                                  <input type="text" value="{{st.age}}"  name="age" my="3">
-                                  <input type="text" value="{{st.address}}"  name="address" my="3">
-                                  <input type="text" value="{{st.course}}"  name="course" my="3">
-                                  <input type="text" value="{{st.duration}}"  name="duration" my="3">
+                                  <input type="text" value="{{st.username}}"  name="username" class="form-control mx-2">
+                                  <input type="text" value="{{st.age}}"  name="age" class="form-control mx-2">
+                                  <input type="text" value="{{st.address}}"  name="address" class="form-control mx-2">
+                                  <input type="text" value="{{st.course}}"  name="course" class="form-control mx-2">
+                                  <input type="text" value="{{st.duration}}"  name="duration" class="form-control mx-2">
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

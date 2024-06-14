@@ -31,7 +31,7 @@ def upd(id):
                 address=request.form['address'],course=request.form['course'],
                 duration=request.form['duration'])
         data=read_json()
-    return render_template("index.html",stud=data["students"])
+    return render_template("index.html",stud=data["students"],name=name)
             
 
 if __name__=="__main__":
