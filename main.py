@@ -1,4 +1,4 @@
-from flask import Flask, render_template,request
+from flask import Flask, render_template,request, redirect
 from func import*
 
 app=Flask(__name__)
@@ -20,6 +20,19 @@ def delete(id):
     remove(id)
     data=read_json()
     return render_template("index.html",stud=data["students"])
+
+@app.route("/update/<id>",methods=["POST","GET"])
+def upd(id):
+    if request.method=="GET":
+        return redirect("/")
+   
+    else:
+        name=upd_stud(int(id),username=request.form['username'],age=request.form['age'],
+                address=request.form['address'],course=request.form['course'],
+                duration=request.form['duration'])
+        data=read_json()
+    return render_template("index.html",stud=data["students"])
+            
 
 if __name__=="__main__":
     app.run(debug=True)

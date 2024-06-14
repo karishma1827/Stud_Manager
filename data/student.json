@@ -5,32 +5,24 @@
          "username": "Karishma",
          "age": "17",
          "address": "Thoothukudi",
-         "course": "python",
+         "course": "Python",
          "duration": "2 months"
       },
       {
          "sno": 2,
          "username": "Apishaa",
-         "age": "18",
+         "age": "17",
          "address": "Chennai",
          "course": "web development",
-         "duration": "3 months"
+         "duration": "2 months"
       },
       {
          "sno": 3,
          "username": "Abarna",
          "age": "17",
-         "address": "Coimbatore",
-         "course": "tally",
-         "duration": "1 month"
-      },
-      {
-         "sno": 4,
-         "username": "Cinzi",
-         "age": "18",
-         "address": "Tirunelveli",
-         "course": "web development",
-         "duration": "2 months"
+         "address": "Tuticorin",
+         "course": "python",
+         "duration": "3 months"
       }
    ]
 }
