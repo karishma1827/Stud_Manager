@@ -10,11 +10,10 @@
 .font{
         
         font-optical-sizing: auto;
-        font-family:"Kanit";
-        font-weight: 400;
-        font-style: normal;
         font-size:50px;
-        color: #FF7D29;
+        color: #ff0000;
+        font-family: "Bebas Neue";
+        font-weight: 400;
       }
       
 .font1{
