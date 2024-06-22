@@ -23,6 +23,14 @@
          "address": "Kerela",
          "course": "web development",
          "duration": "2 months"
+      },
+      {
+         "sno": 4,
+         "username": "Hannah",
+         "age": "18",
+         "address": "Coimbatore",
+         "course": "python",
+         "duration": "2 months"
       }
    ]
 }
